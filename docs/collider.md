@@ -2,7 +2,7 @@
 
 Add auto and custom collider to the selection.
 
-![](/img/collider.png)
+<p><img :src="$withBase('/img/collider.png')" alt='' /></p>
 
 ---
 
@@ -12,14 +12,14 @@ Collider will create based on the bounding box of the selection.
 
 `Object mode`
 
-![](/img/box.gif)
+<p><img :src="$withBase('/img/box.gif')" alt='' /></p>
 
 `Edit mode`
 
 - Switch to Edit Mode
 - Select vertices to add box collider
 
-![](/img/box_editmode.gif)
+<p><img :src="$withBase('/img/box_editmode.gif')" alt='' /></p>
 
 `Custom`
 
@@ -30,7 +30,7 @@ Collider will create based on the bounding box of the selection.
 - Select the custom box object(s).
 - Select the object for which you want to make collider.
 
-![](/img/box_custom.gif)
+<p><img :src="$withBase('/img/box_custom.gif')" alt='' /></p>
 
 ---
 
@@ -40,14 +40,14 @@ Collider will create based on the bounding box and depth of the selection.
 
 `Object mode`
 
-![](/img/capsule.gif)
+<p><img :src="$withBase('/img/capsule.gif')" alt='' /></p>
 
 `Edit mode`
 
 - Switch to Edit Mode
 - Select vertices to add capsule collider
 
-![](/img/capsule_editmode.gif)
+<p><img :src="$withBase('/img/capsule_editmode.gif')" alt='' /></p>
 
 `Custom`
 
@@ -58,7 +58,7 @@ Collider will create based on the bounding box and depth of the selection.
 - Select the custom capsule object(s).
 - Select the object for which you want to make collider.
 
-![](/img/capsule_custom.gif)
+<p><img :src="$withBase('/img/capsule_custom.gif')" alt='' /></p>
 
 ---
 
@@ -68,14 +68,14 @@ Collider will create based on the bounding box of the selection.
 
 `Object mode`
 
-![](/img/sphere.gif)
+<p><img :src="$withBase('/img/sphere.gif')" alt='' /></p>
 
 `Edit mode`
 
 - Switch to Edit Mode
 - Select vertices to add sphere collider
 
-![](/img/sphere_editmode.gif)
+<p><img :src="$withBase('/img/sphere_editmode.gif')" alt='' /></p>
 
 `Custom`
 
@@ -86,7 +86,7 @@ Collider will create based on the bounding box of the selection.
 - Select the custom sphere object(s).
 - Select the object for which you want to make collider.
 
-![](/img/sphere_custom.gif)
+<p><img :src="$withBase('/img/sphere_custom.gif')" alt='' /></p>
 
 ---
 
@@ -96,22 +96,22 @@ Collider will create based on the bounding box and depth of the selection.
 
 `Object mode`
 
-![](/img/cylinder.gif)
+<p><img :src="$withBase('/img/cylinder.gif')" alt='' /></p>
 
 `Redo`
 
 Change the cylinder collider segments for precision
 
-![](/img/cylinder_redo.gif)
+<p><img :src="$withBase('/img/cylinder_redo.gif')" alt='' /></p>
 
-![](/img/cylinder_redo.png)
+<p><img :src="$withBase('/img/cylinder_redo.png')" alt='' /></p>
 
 `Edit mode`
 
 - Switch to Edit Mode
 - Select vertices to add cylinder collider
 
-![](/img/cylinder_editmode.gif)
+<p><img :src="$withBase('/img/cylinder_editmode.gif')" alt='' /></p>
 
 ---
 
@@ -121,22 +121,22 @@ Collider will create based on the selection.
 
 `Object Mode`
 
-![](/img/convex.gif)
+<p><img :src="$withBase('/img/convex.gif')" alt='' /></p>
 
 [V-HACD](/introduction/preference.html#v-hacd) enabled
 
-![](/img/convex_vhacd.gif)
+<p><img :src="$withBase('/img/convex_vhacd.gif')" alt='' /></p>
 
 [Parameters](/introduction/preference.html#v-hacd)
 
-![](/img/vhacd_operator.png)
+<p><img :src="$withBase('/img/vhacd_operator.png')" alt='' /></p>
 
 `Edit Mode`
 
 - Switch to Edit Mode
 - Select vertices to add convex hull
 
-![](/img/convex_editmode.gif)
+<p><img :src="$withBase('/img/convex_editmode.gif')" alt='' /></p>
 
 `Custom`
 
@@ -147,4 +147,4 @@ Collider will create based on the selection.
 - Select the custom convex object(s).
 - Select the object for which you want to make collider.
 
-![](/img/convex_custom.gif)
+<p><img :src="$withBase('/img/convex_custom.gif')" alt='' /></p>

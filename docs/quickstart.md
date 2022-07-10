@@ -13,10 +13,10 @@ This quick start guide will help you get up and running with Blender to Unity
 - Choose the zip that was downloaded and click `Install Add-on`
 - After the installation is complete it will show up in the addon list.
 
-![](/img/addon_disable.png)
+<p><img :src="$withBase('/img/addon_disable.png')" alt='' /></p>
 
 ## Enable
 
 After the installation is complete enable the addon by ticking the checkbox.
 
-![](/img/addon_enable.png)
+<p><img :src="$withBase('/img/addon_enable.png')" alt='' /></p>

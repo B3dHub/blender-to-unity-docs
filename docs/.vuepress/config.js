@@ -1,7 +1,7 @@
 const { description, repository } = require('../../package')
 
 module.exports = {
-  // base: '/blender-to-unity-docs/',
+  base: '/blender-to-unity-docs/',
   title: 'Blender to Unity',
   description: description,
   head: [
@@ -26,45 +26,26 @@ module.exports = {
     sidebar: {
       '/': [
         {
-          title: 'Introduction',
+          title: '',
           collapsable: false,
           children: [
-            'introduction/',
-            'introduction/preference',
+            'quickstart',
+            'preference',
           ]
         },
         {
-          title: 'Tool',
+          title: '',
           collapsable: false,
           children: [
-            'tool/',
-          ]
-        },
-        {
-          title: 'Collider',
-          collapsable: false,
-          children: [
-            'collider/',
-          ]
-        },
-        {
-          title: 'Lod',
-          collapsable: false,
-          children: [
-            'lod/',
-          ]
-        },
-        {
-          title: 'Export',
-          collapsable: false,
-          children: [
-            'export/',
+            'tool',
+            'collider',
+            'lod',
+            'export',
           ]
         },
       ],
     }
   },
-
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',

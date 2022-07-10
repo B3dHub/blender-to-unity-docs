@@ -1,15 +1,16 @@
 ---
+navbar: false
 home: true
-heroImage: /img/UN_512.png
-tagline: 
-actionText: Quick Start →
-actionLink: /introduction/
+heroImage: /img/UN_150.png
+tagline: Export Meshes, Animations, Colliders and Lods to Unity Engine.
+actionText: Quick Start
+actionLink: /quickstart
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Karan with ❤️
+- title: Mesh / Animation
+  details: Export object/animation(s) to Disk or Unity or Both.
+- title: Lod
+  details: Create, Update, and Preset LODs of selected objects.
+- title: Collider
+  details: Add auto and custom collider to the selection.
+footer: Made by Karan
 ---

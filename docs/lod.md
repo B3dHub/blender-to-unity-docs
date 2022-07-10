@@ -2,7 +2,7 @@
 
 Create, Update, and Preset LODs of selected objects.
 
-![](/img/lod.png)
+<p><img :src="$withBase('/img/lod.png')" alt='' /></p>
 
 ---
 
@@ -11,7 +11,7 @@ Create, Update, and Preset LODs of selected objects.
 - Press `Add` to add number of LODs
 - Set the reduction percentage of the LODs
 
-![](/img/lod_add.gif)
+<p><img :src="$withBase('/img/lod_add.gif')" alt='' /></p>
 
 ---
 
@@ -20,7 +20,7 @@ Create, Update, and Preset LODs of selected objects.
 - Update number of LODs
 - Change the reduction percentage of the LODs
 
-![](/img/lod_update.gif)
+<p><img :src="$withBase('/img/lod_update.gif')" alt='' /></p>
 
 ---
 
@@ -28,4 +28,4 @@ Create, Update, and Preset LODs of selected objects.
 
 You can save LOD preset
 
-![](/img/lod_preset.gif)
+<p><img :src="$withBase('/img/lod_preset.gif')" alt='' /></p>

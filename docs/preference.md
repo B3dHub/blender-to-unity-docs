@@ -2,24 +2,24 @@
 
 ## General
 
-![](/img/general.png)
+<p><img :src="$withBase('/img/general.png')" alt='' /></p>
 
 ### Collider
 
 Change the color of the collider objects.
 
-![](/img/collider_prefs.png)
+<p><img :src="$withBase('/img/collider_prefs.png')" alt='' /></p>
 
 ### V-HACD
 > Requires version 2 of V-HACD executable
 
-![](/img/vhacd.png)
+<p><img :src="$withBase('/img/vhacd.png')" alt='' /></p>
 
 - If you are using windows then you can use V-HACD.
 - Extract the V-HACD executable from the zip/Blender-to-Unity/resouce/V-HACD/VHACD_v2.exe
 - Locate the executable path then the parameters will available.
 
-![](/img/vhacd_prefs.png)
+<p><img :src="$withBase('/img/vhacd_prefs.png')" alt='' /></p>
 
 | Parameter        | Description                                                                                                                                                                               | Range            | Default |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------- |
@@ -41,12 +41,11 @@ Change the color of the collider objects.
 
 ## Path
 
+<p><img :src="$withBase('/img/path_disk.png')" alt='' /></p>
 
-![](/img/path_disk.png)
+<p><img :src="$withBase('/img/path_unity.png')" alt='' /></p>
 
-![](/img/path_unity.png)
-
-![](/img/path_both.png)
+<p><img :src="$withBase('/img/path_both.png')" alt='' /></p>
 
 ---
 
@@ -54,4 +53,4 @@ Change the color of the collider objects.
 
 Change the FBX settings
 
-![](/img/export_prefs.png)
+<p><img :src="$withBase('/img/export_prefs.png')" alt='' /></p>

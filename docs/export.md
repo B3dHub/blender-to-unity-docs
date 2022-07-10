@@ -2,7 +2,7 @@
 
 Export object(s) to Disk or Unity or Both.
 
-![](/img/export.png)
+<p><img :src="$withBase('/img/export.png')" alt='' /></p>
 
 ---
 
@@ -21,8 +21,8 @@ Export object(s) to Disk or Unity or Both.
 
 ## Disk
 
-![](/img/export_disk.gif)
+<p><img :src="$withBase('/img/export_disk.gif')" alt='' /></p>
 
 ## Unity
 
-![](/img/export_unity.gif)
+<p><img :src="$withBase('/img/export_unity.gif')" alt='' /></p>
