@@ -1,0 +1,19 @@
+{
+  "name": "blender-to-unity-docs",
+  "version": "0.0.1",
+  "description": "Blender to Unity is a blender addon to export Meshes, Animations, Colliders and Lods to Unity Engine.",
+  "main": "index.js",
+  "authors": {
+    "name": "Karan",
+    "email": ""
+  },
+  "repository": "https://github.com/b3dhub/blender-to-unity-docs",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
