@@ -1,7 +1,7 @@
 const { description, repository } = require('../../package')
 
 module.exports = {
-  base: '/blender-to-unity-docs/',
+  // base: '/blender-to-unity-docs/',
   title: 'Blender to Unity',
   description: description,
   head: [
@@ -12,9 +12,9 @@ module.exports = {
   ],
 
   themeConfig: {
-    repo: repository,
+    repo: '',
     docsDir: 'docs',
-    editLinks: true,
+    editLinks: false,
     editLinkText: 'Edit on Github',
     lastUpdated: true,
     nav: [
