@@ -11,7 +11,7 @@ Create, Update, and Preset LODs of selected objects.
 - Press `Add` to add number of LODs
 - Set the reduction percentage of the LODs
 
-<p><img :src="$withBase('/img/lod_add.webp')" alt='' /></p>
+<p><img :src="$withBase('/img/lod_create.webp')" alt='' /></p>
 
 ---
 
