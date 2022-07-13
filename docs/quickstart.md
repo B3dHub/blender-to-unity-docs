@@ -6,17 +6,22 @@ This quick start guide will help you get up and running with Blender to Unity
 
 - Blender 3.0.0 or above
 - Download the addon from
-    - [Gumroad](https://prakashkaran.gumroad.com/l/blender-to-unity)
+    - [Gumroad](https://b3dhub.gumroad.com/l/blender-to-unity)
 
-## Install
+## Installation
+
+- Go to `Edit > Preferences` then to the `Addons` tab. Click `Install`
+
+<p><img :src="$withBase('/img/installation.png')" alt='' /></p>
 
 - Choose the zip that was downloaded and click `Install Add-on`
+  
+<p><img :src="$withBase('/img/installation1.png')" alt='' /></p>
+
 - After the installation is complete it will show up in the addon list.
 
 <p><img :src="$withBase('/img/addon_disable.png')" alt='' /></p>
 
-## Enable
-
-After the installation is complete enable the addon by ticking the checkbox.
+- Enable the addon by ticking the checkbox.
 
 <p><img :src="$withBase('/img/addon_enable.png')" alt='' /></p>

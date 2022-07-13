@@ -4,25 +4,24 @@ Export object(s) to Disk or Unity or Both.
 
 <p><img :src="$withBase('/img/export.png')" alt='' /></p>
 
----
+If [Path](/preference.html#path) is not defined then the `Export` button will disable.
 
-## Selected Objects
+<p><img :src="$withBase('/img/export_disable.png')" alt='' /></p>
 
-`True`: Exports only the selected objects.
+::: tip CHECK : Selected Objects
+- Exports only the selected objects.
+- Objects can be in any collection.
+:::
 
-`False`: Objects should be in `Export` collection.
+<p><img :src="$withBase('/img/any_collection.png')" alt='' /></p>
 
-## Separate FBX File
+::: tip UNCHECK : Selected Objects
+- Objects should be in `Export` collection.
+:::
 
-`True`: Exports separate FBX file per object.
+<p><img :src="$withBase('/img/export_collection.png')" alt='' /></p>
 
-`False`: Need to name the FBX file. Default is `untitled`
-
-
-## Disk
-
-<p><img :src="$withBase('/img/export_disk.gif')" alt='' /></p>
-
-## Unity
-
-<p><img :src="$withBase('/img/export_unity.gif')" alt='' /></p>
+::: tip DON'T
+- Select any children object(s).
+- Select any collisions, sockets, lods.
+:::

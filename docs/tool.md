@@ -8,4 +8,4 @@
 
 Rename object and its `Colliders` and `LODs`.
 
-<p><img :src="$withBase('/img/rename.gif')" alt='' /></p>
+<p><img :src="$withBase('/img/rename.webp')" alt='' /></p>

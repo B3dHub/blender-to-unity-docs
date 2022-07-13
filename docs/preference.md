@@ -10,12 +10,23 @@ Change the color of the collider objects.
 
 <p><img :src="$withBase('/img/collider_prefs.png')" alt='' /></p>
 
+`Convex_Collider` material for the Convex collider.
+
+`Box_Collider` material for the Box collider.
+
+`Sphere_Collider` material for the Sphere collider.
+
+`Capsule_Collider` material for the Capsule collider.
+
 ### V-HACD
-> Requires version 2 of V-HACD executable
+
+::: tip REQUIRE
+- Windows operating system.
+- Version 2 of V-HACD executable.
+:::
 
 <p><img :src="$withBase('/img/vhacd.png')" alt='' /></p>
 
-- If you are using windows then you can use V-HACD.
 - Extract the V-HACD executable from the zip/Blender-to-Unity/resouce/V-HACD/VHACD_v2.exe
 - Locate the executable path then the parameters will available.
 
@@ -41,9 +52,17 @@ Change the color of the collider objects.
 
 ## Path
 
+Choose the export path.
+
+#### Export to Disk
+
 <p><img :src="$withBase('/img/path_disk.png')" alt='' /></p>
 
+#### Export to Unity
+
 <p><img :src="$withBase('/img/path_unity.png')" alt='' /></p>
+
+#### Export to Both
 
 <p><img :src="$withBase('/img/path_both.png')" alt='' /></p>
 
@@ -51,6 +70,6 @@ Change the color of the collider objects.
 
 ## Export
 
-Change the FBX settings
+Change the FBX settings.
 
 <p><img :src="$withBase('/img/export_prefs.png')" alt='' /></p>

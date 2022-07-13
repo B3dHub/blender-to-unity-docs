@@ -31,12 +31,6 @@ module.exports = {
           children: [
             'quickstart',
             'preference',
-          ]
-        },
-        {
-          title: '',
-          collapsable: false,
-          children: [
             'tool',
             'collider',
             'lod',
