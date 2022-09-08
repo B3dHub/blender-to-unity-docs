@@ -2,11 +2,11 @@
 
 Export object(s) to Disk or Unity or Both.
 
-<p><img :src="$withBase('/img/export.png')" alt='' /></p>
+<p><img :src="$withBase('/img/export_1.png')" alt='' /></p>
 
 If [Path](/preference.html#path) is not defined then the `Export` button will disable.
 
-<p><img :src="$withBase('/img/export_disable.png')" alt='' /></p>
+<p><img :src="$withBase('/img/export_disable_1.png')" alt='' /></p>
 
 ::: tip CHECK : Selected Objects
 - Exports only the selected objects.
@@ -22,6 +22,7 @@ If [Path](/preference.html#path) is not defined then the `Export` button will di
 <p><img :src="$withBase('/img/export_collection.png')" alt='' /></p>
 
 ::: tip DON'T
+- Make `Empty` as parent.
 - Select any children object(s).
 - Select any collisions, sockets, lods.
 :::
