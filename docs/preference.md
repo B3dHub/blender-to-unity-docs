@@ -2,13 +2,19 @@
 
 ## General
 
-<p><img :src="$withBase('/img/general.png')" alt='' /></p>
+<p><img :src="$withBase('/img/prefs_general.png')" alt='' /></p>
+
+### Object
+
+Create collection for object's colliders and LODs.
+
+<p><img :src="$withBase('/img/prefs_general_object.png')" alt='' /></p>
 
 ### Collider
 
 Change the color of the collider objects.
 
-<p><img :src="$withBase('/img/collider_prefs.png')" alt='' /></p>
+<p><img :src="$withBase('/img/prefs_general_collider.png')" alt='' /></p>
 
 `Convex_Collider` material for the Convex collider.
 
@@ -18,21 +24,27 @@ Change the color of the collider objects.
 
 `Capsule_Collider` material for the Capsule collider.
 
+### LODs
+
+Offset LODs location for better comparison.
+
+<p><img :src="$withBase('/img/prefs_general_lod.png')" alt='' /></p>
+
 ### V-HACD
 
 ::: tip REQUIRE
 - Windows operating system.
-- Version 2 of V-HACD executable.
+<!-- - Version 2 of V-HACD executable. -->
 :::
 
-<p><img :src="$withBase('/img/vhacd.png')" alt='' /></p>
+<!-- <p><img :src="$withBase('/img/vhacd.png')" alt='' /></p>
 
 - Extract the V-HACD executable from the zip/Blender-to-Unity/resouce/V-HACD/VHACD_v2.exe
-- Locate the executable path then the parameters will available.
+- Locate the executable path then the parameters will available. -->
 
-<p><img :src="$withBase('/img/vhacd_prefs.png')" alt='' /></p>
+<p><img :src="$withBase('/img/prefs_general_vhacd.png')" alt='' /></p>
 
-| Parameter        | Description                                                                                                                                                                               | Range            | Default |
+<!-- | Parameter        | Description                                                                                                                                                                               | Range            | Default |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------- |
 | Voxel Resolution | Maximum number of voxels generated during the voxelization stage                                                                                                                          | 10000 - 64000000 | 100000  |
 | Clipping Depth   | Maximum number of clipping stages. During each split stage, all the model parts (with a concavity higher than the user defined threshold) are clipped according the "best" clipping plane | 1 - 32           | 20      |
@@ -46,9 +58,9 @@ Change the color of the collider objects.
 | Shrinkwrap       | Shrinkwrap hull to source mesh.                                                                                                                                                           | Bool             | False   |
 | Mode             | Approximate convex decomposition mode                                                                                                                                                     | Enum             | Voxel       |
 | Hull Vertices    | Maximum number of vertices per convex-hull                                                                                                                                                | 4 - 1024         | 32      |
-| Hull Volume      | Minimum volume to add vertices to convex-hulls                                                                                                                                            | 0.0 - 0.01       | 0.0001  |
+| Hull Volume      | Minimum volume to add vertices to convex-hulls                                                                                                                                            | 0.0 - 0.01       | 0.0001  | -->
 
----
+<!-- ---
 
 ## Path
 
@@ -64,7 +76,7 @@ Choose the export path.
 
 #### Export to Both
 
-<p><img :src="$withBase('/img/path_both.png')" alt='' /></p>
+<p><img :src="$withBase('/img/path_both.png')" alt='' /></p> -->
 
 ---
 
@@ -72,4 +84,4 @@ Choose the export path.
 
 Change the FBX settings.
 
-<p><img :src="$withBase('/img/export_prefs.png')" alt='' /></p>
+<p><img :src="$withBase('/img/prefs_export.png')" alt='' /></p>

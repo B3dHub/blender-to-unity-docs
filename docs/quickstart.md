@@ -4,9 +4,10 @@ This quick start guide will help you get up and running with Blender to Unity
 
 ## Requirements
 
-- Blender 3.0.0 or above
-- Download the latest addon
+- Blender 3.3.0 or above
+- Download the latest version from
     - [Blender Market](https://blendermarket.com/products/blender-to-unity)
+    -  [Gumroad](https://b3dhub.gumroad.com/l/blender-to-unity)
 
 ## Installation
 
